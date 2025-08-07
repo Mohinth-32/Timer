@@ -37,3 +37,40 @@ yarn-error.*
 *.tsbuildinfo
 
 app-example
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# React Native
+.expo/
+.expo-shared/
+dist/
+build/
+
+# macOS
+.DS_Store
+
+# Android
+android/.gradle/
+android/app/build/
+android/.idea/
+*.iml
+.gradle/
+*.apk
+*.aar
+
+# iOS
+ios/build/
+ios/Pods/
+ios/DerivedData/
+ios/.idea/
+*.xcworkspace
+*.xcuserstate
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+
+# Misc
+.env
