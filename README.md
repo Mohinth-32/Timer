@@ -1,26 +1,38 @@
-# Welcome Timer app 👋
+#  Timer Calculator App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A minimal and interactive **React Native** application built using **Expo**, designed to calculate and store durations between start and stop actions with animated UI effects.
 
-## Get started
+## ✨ Features
 
-1. Install dependencies
+- ⏱️ Start and stop a timer to measure durations  
+- 🎯 Animated bouncing timer text with dynamic color changes  
+- 💾 Stores each completed duration using **AsyncStorage**  
+- 📋 View all previously recorded durations  
+- 📱 Clean, responsive .
 
-   ```bash
-   npm install
-   ```
+## 📦 Tech Stack
 
-2. Start the app
+- [React Native](https://reactnative.dev/)
+- [Expo](https://expo.dev/)
+- [AsyncStorage](https://react-native-async-storage.github.io/async-storage/)  
 
-   ```bash
-   npx expo start
-   ```
+## 🚀 Getting Started
 
-In the output, you'll find options to open the app in a
+### 1. Clone the Repo
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+```bash
+git clone https://github.com/your-username/timer-calculator-app.git  
+cd timer-calculator-app  
+  ```
+### 2. Install dependencies
+```bash
+npm install
+#or 
+yarn install
+```
+### 3. Start the App
+```bash 
+npx expo start
+```
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### 4. Scan the QR code using the Expo Go app on your device or run it on an emulator.
